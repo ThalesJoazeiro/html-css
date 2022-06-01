@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Turbow">
+    <meta name="description" content="lista de documentos">
+    <meta name="keywords" content="html5, tecnologia">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <P>Aumente e diminua o temanho do navegador.</P>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img-media.png" type="image/png">
+        <img src="imagens/img-grande.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Reproduzindo um áudio utilizando HTML5.</p>
+    <audio preload="metadata" controls>
+        <source src="midia/AcalmaOMeuCoracao.mp3" type="audio/mpeg">
+        <source src="midia/AcalmaOMeuCoracao.mp3" type="audio/ogg">
+        <source src="midia/AcalmaOMeuCoracao.mp3" type="audio/wav">
+    </audio>
+
+    <h1>Reproduzindo Vídeo</h1>
+</body>
+</html>

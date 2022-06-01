@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: dimgray;
+        }
+        
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: grey;
+            padding: 4px;
+            box-shadow: 2px 4px 4px #bbbbbb;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 32px;
+            padding: 4px 16px;
+        }
+
+        nav > a:hover{
+            background-color: black;
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        article{
+            background-color: rgb(207, 207, 207);
+            padding: 16px;
+            border-radius: 8px;
+        }
+
+        article > aside{
+            background-color: rgb(153, 153, 153);
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 4px;
+            margin: 10px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+    
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Fodase</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia autem, sint nesciunt non doloribus aperiam accusamus laboriosam. Nostrum autem voluptatum, veritatis, quia omnis consectetur enim veniam sit necessitatibus non voluptas!</p>
+                <aside>
+                    <p>Artigo escrito por mim.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Thales Joazeiro</p>
+    </footer>
+</body>
+</html>
